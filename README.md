@@ -45,7 +45,7 @@ kubectl get all
 ```
 ### copy <strong>EXTERNAL-IP</strong> provided by the <strong>service/nextcloud</strong> in the browser to login to nextcloud.
 
-![nexcloud-1](https://raw.githubusercontent.com/krrajpurohit/nextCloudOnEKS/master/static/next2.png)
+![nexcloud-1](https://raw.githubusercontent.com/krrajpurohit/nextCloudOnEKS/master/static/next1.png)
 
 ![nextcloud-2](https://raw.githubusercontent.com/krrajpurohit/nextCloudOnEKS/master/static/next2.png)
 
@@ -53,7 +53,13 @@ kubectl get all
 
 # **You can find a detailed article about this project at :**
 
-> [Deploying NextCloud on EKS and Integrating with AWS EFS , ELB](https://medium.com/@kuldeep.rajpurohit/deploying-nextcloud-on-eks-and-integrating-aws-efs-and-elb-8941486c63d9
-)
+> [Deploying NextCloud on EKS and Integrating with AWS EFS ,ELB](https://medium.com/@kuldeep.rajpurohit/deploying-nextcloud-on-eks-and-integrating-aws-efs-and-elb-8941486c63d9)
+
+
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/krrajpurohit/nextCloudOnEKS/graphs/commit-activity)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://www.linkedin.com/in/kuldeepsingh-rajpurohit-70b41117b/)
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/krrajpurohit/nextCloudOnEKS/blob/master/LICENSE)
+
+
 
 
