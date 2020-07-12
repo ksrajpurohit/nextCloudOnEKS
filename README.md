@@ -18,9 +18,9 @@ aws eks update-kubeconfig --name nextcluster
 ```
 ### Step2: Install Amazon EFS Utilities on every node in the cluster using following command:
 ```bash
-yum install amazon-efs-utils
+yum install amazon-efs-utils -y
 ```
-![nextcloud + eks banner](https://raw.githubusercontent.com/krrajpurohit/nextCloudOnEKS/master/static/yum.png)
+![yum install](https://raw.githubusercontent.com/krrajpurohit/nextCloudOnEKS/master/static/yum.png)
 
 ### Step3: Create namespace for easy management of resources,and set it as default
 ```bash
@@ -49,7 +49,7 @@ kubectl get all
 
 ![nextcloud-2](https://raw.githubusercontent.com/krrajpurohit/nextCloudOnEKS/master/static/next2.png)
 
-![nextcloud3](https://raw.githubusercontent.com/krrajpurohit/nextCloudOnEKS/master/static/next3.png)
+![nextcloud-3](https://raw.githubusercontent.com/krrajpurohit/nextCloudOnEKS/master/static/next3.png)
 
 # **You can find a detailed article about this project at :**
 
