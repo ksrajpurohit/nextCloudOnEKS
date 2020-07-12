@@ -3,10 +3,13 @@
 ![nextcloud + eks banner](https://raw.githubusercontent.com/krrajpurohit/nextCloudOnEKS/master/banner.jpeg)
 
 ## Getting started
+
+### Prerequisite
 - create an aws user with adminaccess<br>
 - install awscli2<br>
 - configure awscli with access key and secret key<br>
 - install eksctl<br>
+- clone this repo `git clone https://github.com/krrajpurohit/nextCloudOnEKS.git`
 
 ### Step1: Create EKS cluster and configure the kubectl config files
 ```bash
