@@ -36,13 +36,19 @@ spec:
         name: mysql
         env:
         - name: MYSQL_ROOT_PASSWORD
-          value: root
+          valueFrom:
+            secretKeyRef:
+              name: mysql-root-pass
+              key: root-password
         - name: MYSQL_DATABASE
           value: nextcloud
         - name: MYSQL_USER
           value: testuser
         - name: MYSQL_PASSWORD
-          value: testpass
+          valueFrom:
+            secretKeyRef:
+              name: mysql-user-pass
+              key: user-password
         ports:
         - containerPort: 3306
           name: mysql

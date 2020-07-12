@@ -1,4 +1,6 @@
-# Deploying NextCloud on EKS ,Used MySQl as database for nextCloud,and integrated various aws services with EKS cluster.
+# Deploying NextCloud on EKS ,Used MySQL as database for nextCloud,and integrated various aws services with EKS cluster.
+
+![nextcloud + eks banner](https://raw.githubusercontent.com/krrajpurohit/nextCloudOnEKS/master/banner.jpeg)
 
 ## Getting started
 - create an aws user with adminaccess<br>
@@ -33,4 +35,8 @@ kubectl get all
 ### copy <strong>EXTERNAL-IP</strong> provided by the <strong>service/nextcloud</strong> in the browser to login to nextcloud.
 
 ## You can find a detailed article about this project at:
+
+[Deploying NextCloud on EKS and Integrating with AWS EFS , ELB](https://medium.com/@kuldeep.rajpurohit/deploying-nextcloud-on-eks-and-integrating-aws-efs-and-elb-8941486c63d9
+)
+
 

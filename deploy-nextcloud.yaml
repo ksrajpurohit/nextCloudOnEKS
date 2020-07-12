@@ -42,11 +42,17 @@ spec:
         - name: MYSQL_USER
           value: testuser
         - name: MYSQL_PASSWORD
-          value: testpass
+          valueFrom:
+            secretKeyRef:
+              name: mysql-pass
+              key: password
         - name: NEXTCLOUD_ADMIN_USER
           value: admin
         - name: NEXTCLOUD_ADMIN_PASSWORD
-          value: adminpass
+          valueFrom:
+            secretKeyRef:
+              name: nextcoud-admin-pass
+              key: nextcloud-password
         ports:
         - containerPort: 80
           name: nextcloud
